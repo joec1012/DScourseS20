@@ -1,0 +1,16 @@
+--2020-02-06 16:56:55--  http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2010&week=1&format=json
+Resolving api.fantasy.nfl.com (api.fantasy.nfl.com)... 151.101.129.153, 151.101.1.153, 151.101.193.153, ...
+Connecting to api.fantasy.nfl.com (api.fantasy.nfl.com)|151.101.129.153|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2010&week=1&format=json [following]
+--2020-02-06 16:57:00--  https://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2010&week=1&format=json
+Connecting to api.fantasy.nfl.com (api.fantasy.nfl.com)|151.101.129.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 55788 (54K) [application/json]
+Saving to: ‘stats?statType=seasonStats&season=2010&week=1&format=json.3’
+
+     0K .......... .......... .......... .......... .......... 91% 2.80M 0s
+    50K ....                                                  100% 8546G=0.02s
+
+2020-02-06 16:57:00 (3.05 MB/s) - ‘stats?statType=seasonStats&season=2010&week=1&format=json.3’ saved [55788/55788]
+
