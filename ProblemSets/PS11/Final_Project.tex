@@ -1,0 +1,120 @@
+\documentclass[12pt,english]{article}
+\usepackage{mathptmx}
+
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{darkblue}{RGB}{0.,0.,139.}
+
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{lipsum}
+
+\usepackage[authoryear]{natbib}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage[flushleft]{threeparttable}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{pdflscape}
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 0},backref=false,
+ colorlinks,citecolor=black,filecolor=black,
+ linkcolor=black,urlcolor=black]
+ {hyperref}
+\usepackage[all]{hypcap} % Links point to top of image, builds on hyperref
+\usepackage{breakurl}    % Allows urls to wrap, including hyperref
+
+\linespread{2}
+
+\begin{document}
+
+\begin{singlespace}
+\title{Relationship Between Division 1 Head Strength Coach Salary and On-field Performance\thanks{}}
+\end{singlespace}
+
+\author{Joseph Castiglione\thanks{Department of Health & Exercise Science, University of Oklahoma.\
+E-mail~address:~\href{mailto:joe.castiglione.jr@ou.edu}{joe.castiglione.jr@ou.edu}}}
+
+% \date{\today}
+\date{April, 2020}
+
+\maketitle
+
+\begin{abstract}
+\begin{singlespace}
+The project set out to find a relationship between Division 1 head strength coaches and the on field performance of the football programs. 
+\end{singlespace}
+
+\end{abstract}
+\vfill{}
+
+
+\pagebreak{}
+
+
+\section{Introduction}\label{sec:intro}
+    In a time we see the threat to college football as COVID 19 stricken the nation, we see the true importance it has not only on Universities but on communities. Each University looks for an area to increase the chance of success of their football team. One of the ways teams look to not only improve their players but their chances is the department of strength and conditioning. The goal of this study is to provide clear numbers for administrators in which they can use to decide the allocations towards strength and conditioning departments. Using the Strength Coach salaries paired with data from the season, I hope to find and visualize a relationship between the two. The difference between the top paid coach versus the smallest salary is substantial. Iowa's Head Strength and Conditioning Coach is paid 800,000 dollars per year, almost 16 times more than Ohio's strength coach who is paid 54,000 dollars a year \cite{gardner}. The need for this study and experiment is apparent due to lack of similar studies. This makes it interesting to research because there is not any information on how to go about it or the formulas necessary. 
+     
+
+\section{Literature Review}\label{sec:litreview}
+Previous work by \citet{altonji1993} shows that educational decisions are an important determinant of later-life earnings. This point is driven further in follow-up work by \citet{altonji_al2012} and \citet{altonji_al2016}.
+
+
+\section{Data}\label{sec:data}
+The primary data source for this research is the 2000 Decennial Census. Table \ref{tab:descriptives} contains summary statistics.
+
+
+
+
+\section{Empirical Methods}\label{sec:methods}
+While my approach explores a number of different approaches, the primary empirical model can be depicted in the following equation:
+
+\begin{equation}
+\label{eq:1}
+Y_{it}=\alpha_{0} + \alpha_{1}Z_{it} + \alpha_{2} X_{it} + \varepsilon,
+\end{equation}
+where $Y_{it}$ is a continuous outcome variable for unit $i$ in year $t$, and $Z_{it}$ are characteristics about the firm at which $i$ is working, while $X_{it}$ are characteristics about $i$. The parameter of interest is $\alpha_{1}$.
+
+
+\section{Research Findings}\label{sec:results}
+The main results are reported in Table \ref{tab:estimates}.
+
+
+
+\section{Conclusion}\label{sec:conclusion}
+
+
+\vfill
+\pagebreak{}
+\begin{spacing}{1.0}
+\bibliographystyle{jpe}
+\bibliography{References.bib}
+\addcontentsline{toc}{section}{References}
+\end{spacing}
+
+\vfill
+\pagebreak{}
+\clearpage
+
+%========================================
+% FIGURES AND TABLES 
+%========================================
+\section*{Figures and Tables}\label{sec:figTables}
+\addcontentsline{toc}{section}{Figures and Tables}
+%----------------------------------------
+% Figure 1
+%----------------------------------------
+
+
+%----------------------------------------
+% Table 1
+%----------------------------------------
+
+
+\bibliography{Bibliography.bib}
+\end{document}
