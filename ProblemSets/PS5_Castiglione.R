@@ -7,11 +7,9 @@ library(readr)
 
 strengthcoaches<- "https://sports.usatoday.com/ncaa/salaries/football/strength"
 html<- read_html(strengthcoaches)
-Salary <- html %>% html_node("#content > div.full-width > div > section > div.datatable-wrapper.datatable-wrapper-fixed-column > table") %>% html_table(fill=TRUE)
+Salary <- html %>% html_node("#content > div.full-width > div > section > div.datatable-wrapper.datatable-wrapper-fixed-column > table") 
 Salary.table<-html_text(Salary, trim=FALSE)
-View(Salary)
-Salary.table<-Salary.table[[1]]
-
+view(Salary.table)
 #Yahoo Finance API
 library(XML)
 
